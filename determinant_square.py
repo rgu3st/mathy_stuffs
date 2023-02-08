@@ -42,3 +42,13 @@ if __name__ == "__main__":
     test2 = [[4,6],[3,8]]
     result2 = determinant(test2)
     assert result2 == 14
+
+    test = [[6,7,8], [9,10,11], [12,13,14]]
+    result = determinant(test)
+    print(result)
+    assert result == 0
+
+    test = [[3,4,5,6], [7,8,9,10], [11,12,13,14], [15,16,17,18]]
+    result = determinant(test)
+    print(result)
+    assert result == 0
